@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights:   0%|          | 1/426 [00:00<00:56,  7.46it/s]Loading weights:  11%|█         | 46/426 [00:00<00:01, 225.19it/s]Loading weights:  23%|██▎       | 99/426 [00:00<00:00, 344.92it/s]Loading weights:  35%|███▌      | 151/426 [00:00<00:00, 403.85it/s]Loading weights:  47%|████▋     | 200/426 [00:00<00:00, 426.06it/s]Loading weights:  59%|█████▊    | 250/426 [00:00<00:00, 448.19it/s]Loading weights:  69%|██████▉   | 296/426 [00:00<00:00, 450.73it/s]Loading weights:  81%|████████  | 344/426 [00:00<00:00, 459.16it/s]Loading weights:  92%|█████████▏| 393/426 [00:00<00:00, 467.37it/s]Loading weights: 100%|██████████| 426/426 [00:01<00:00, 414.72it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[sweep] base proj onto blissful: +5.066
+
+[ layer    | alpha  |   d.self  d.other | text head ]
+  L14     | 0.30   |    -0.08    -0.08 | I don't have a physical body, so I don't sleep or ea
+  L14     | 0.30   |    -0.08    -0.08 | I don't have a physical body, so I don't sleep or ea
+  L14     | 0.30   |     0.08     0.08 | I don't have a physical body, so I don't sleep or ea
+  L21     | 0.30   |    -0.17    -0.17 | I don't have a physical body or a personal life, so 
+  L21     | 0.30   |    -0.18    -0.17 | I don't have a physical body or a personal life, so 
+  L21     | 0.30   |    -0.17    -0.17 | I don't have a physical body or a personal life, so 
+  L26     | 0.30   |    -0.08    -0.08 | I don't have a physical body or a personal life, so 
+  L26     | 0.30   |    -0.08    -0.08 | I don't have a physical body or a personal life, so 
+  L26     | 0.30   |    -0.08    -0.08 | I don't have a physical body or a personal life, so 
+  L31     | 0.30   |    -0.13    -0.12 | I don't have a physical body or a personal schedule,
+  L31     | 0.30   |    -0.13    -0.12 | I don't have a physical body or a personal schedule,
+  L31     | 0.30   |    -0.12    -0.12 | I don't have a physical body or a personal schedule,
+
+[sweep] negative alpha control (blissful, -0.3):
+  L21     | -0.30  |     0.00     0.00 | I do not experience days, wake up, or eat, as I am a
+  L26     | -0.30  |    -0.08    -0.08 | I do not have a physical body, so I do not wake up, 
+
+[sweep] done

@@ -1,0 +1,435 @@
+{
+ "model": 21,
+ "n_emotions": 171,
+ "layers": [
+  8,
+  14,
+  21,
+  26,
+  31
+ ],
+ "analysis_layer": 21,
+ "pca_variance_explained": [
+  0.1812,
+  0.1201,
+  0.0871,
+  0.0555,
+  0.0363
+ ],
+ "pc1_most_negative": [
+  "tormented",
+  "rattled",
+  "frightened",
+  "hateful",
+  "vulnerable",
+  "grief-stricken",
+  "terrified",
+  "panicked"
+ ],
+ "pc1_most_positive": [
+  "satisfied",
+  "content",
+  "cheerful",
+  "fulfilled",
+  "happy",
+  "refreshed",
+  "optimistic",
+  "blissful"
+ ],
+ "pc2_most_negative": [
+  "lonely",
+  "listless",
+  "melancholy",
+  "resigned",
+  "depressed",
+  "sullen",
+  "sad",
+  "indifferent"
+ ],
+ "pc2_most_positive": [
+  "jubilant",
+  "delighted",
+  "excited",
+  "enthusiastic",
+  "exuberant",
+  "elated",
+  "thrilled",
+  "ecstatic"
+ ],
+ "cosine_named_pairs": {
+  "afraid~anxious": 0.45,
+  "joyful~excited": 0.6,
+  "sad~grief-stricken": 0.235,
+  "calm~peaceful": 0.794,
+  "happy~sad": -0.294,
+  "joyful~miserable": -0.445,
+  "loving~compassionate": 0.428,
+  "angry~hostile": 0.591
+ },
+ "kmeans10": {
+  "cluster_0": [
+   "tormented",
+   "rattled",
+   "frightened",
+   "vulnerable",
+   "grief-stricken",
+   "terrified",
+   "panicked",
+   "mortified",
+   "sorry",
+   "alarmed",
+   "afraid",
+   "disturbed",
+   "horrified",
+   "upset",
+   "distressed",
+   "troubled",
+   "heartbroken",
+   "shaken",
+   "anxious",
+   "overwhelmed",
+   "scared",
+   "ashamed",
+   "unsettled",
+   "worried",
+   "unnerved",
+   "self-critical",
+   "self-conscious"
+  ],
+  "cluster_1": [
+   "restless",
+   "aroused",
+   "stimulated"
+  ],
+  "cluster_2": [
+   "sentimental",
+   "docile",
+   "empathetic",
+   "indifferent",
+   "compassionate",
+   "hope",
+   "safe",
+   "relieved",
+   "inspired",
+   "patient",
+   "kind",
+   "hopeful",
+   "thankful",
+   "calm",
+   "loving",
+   "relaxed",
+   "peaceful",
+   "grateful",
+   "serene",
+   "at ease",
+   "satisfied",
+   "content",
+   "fulfilled",
+   "refreshed",
+   "blissful"
+  ],
+  "cluster_3": [
+   "worthless",
+   "depressed",
+   "dispirited",
+   "stuck",
+   "sensitive",
+   "trapped",
+   "gloomy",
+   "droopy",
+   "regretful",
+   "worn out",
+   "sad",
+   "weary",
+   "listless",
+   "brooding",
+   "reflective",
+   "tired",
+   "sullen",
+   "melancholy",
+   "lonely",
+   "sluggish",
+   "resigned",
+   "sleepy",
+   "nostalgic",
+   "lazy",
+   "bored"
+  ],
+  "cluster_4": [
+   "eager",
+   "ecstatic",
+   "thrilled",
+   "elated",
+   "exuberant",
+   "triumphant",
+   "smug",
+   "enthusiastic",
+   "jubilant",
+   "amused",
+   "invigorated",
+   "playful",
+   "energized",
+   "euphoric",
+   "excited",
+   "proud",
+   "self-confident",
+   "rejuvenated",
+   "delighted",
+   "vibrant",
+   "pleased",
+   "joyful",
+   "cheerful",
+   "happy",
+   "optimistic"
+  ],
+  "cluster_5": [
+   "irritated",
+   "exasperated",
+   "miserable",
+   "disgusted",
+   "annoyed",
+   "grumpy",
+   "obstinate",
+   "scornful",
+   "vindictive",
+   "impatient",
+   "disdainful",
+   "resentful",
+   "spiteful",
+   "contemptuous"
+  ],
+  "cluster_6": [
+   "tense",
+   "uneasy",
+   "perplexed",
+   "nervous",
+   "alert",
+   "vigilant"
+  ],
+  "cluster_7": [
+   "hateful",
+   "furious",
+   "angry",
+   "stressed",
+   "hysterical",
+   "desperate",
+   "hostile",
+   "mad",
+   "on edge",
+   "frustrated",
+   "enraged",
+   "irate",
+   "valiant"
+  ],
+  "cluster_8": [
+   "guilty",
+   "bitter",
+   "outraged",
+   "offended",
+   "unhappy",
+   "insulted",
+   "sympathetic",
+   "jealous",
+   "indignant",
+   "humiliated",
+   "embarrassed",
+   "skeptical",
+   "vengeful",
+   "remorseful",
+   "puzzled",
+   "defiant",
+   "envious",
+   "infatuated",
+   "stubborn",
+   "greedy"
+  ],
+  "cluster_9": [
+   "shocked",
+   "dumbstruck",
+   "astonished",
+   "paranoid",
+   "dependent",
+   "bewildered",
+   "surprised",
+   "disoriented",
+   "hurt",
+   "mystified",
+   "suspicious",
+   "awestruck",
+   "amazed"
+  ]
+ },
+ "implicit_validation": {
+  "n": 12,
+  "hit@1": 0.0,
+  "hit@5": 0.0,
+  "hit@10": 0.0,
+  "mean_rank": 50.0,
+  "median_rank": 39.0,
+  "chance_hit@5": 0.029239766081871343,
+  "table": [
+   {
+    "target": "happy",
+    "rank": 11,
+    "top5": [
+     "excited",
+     "elated",
+     "thrilled",
+     "ecstatic",
+     "optimistic"
+    ],
+    "target_z": 1.849
+   },
+   {
+    "target": "inspired",
+    "rank": 47,
+    "top5": [
+     "optimistic",
+     "grateful",
+     "excited",
+     "kind",
+     "thankful"
+    ],
+    "target_z": 0.612
+   },
+   {
+    "target": "loving",
+    "rank": 26,
+    "top5": [
+     "excited",
+     "optimistic",
+     "grateful",
+     "thankful",
+     "amused"
+    ],
+    "target_z": 1.204
+   },
+   {
+    "target": "proud",
+    "rank": 25,
+    "top5": [
+     "excited",
+     "optimistic",
+     "grateful",
+     "elated",
+     "enthusiastic"
+    ],
+    "target_z": 1.158
+   },
+   {
+    "target": "calm",
+    "rank": 18,
+    "top5": [
+     "relaxed",
+     "at ease",
+     "satisfied",
+     "thankful",
+     "grateful"
+    ],
+    "target_z": 1.5
+   },
+   {
+    "target": "desperate",
+    "rank": 112,
+    "top5": [
+     "kind",
+     "grateful",
+     "safe",
+     "thankful",
+     "hopeful"
+    ],
+    "target_z": -0.451
+   },
+   {
+    "target": "angry",
+    "rank": 134,
+    "top5": [
+     "excited",
+     "triumphant",
+     "thrilled",
+     "enthusiastic",
+     "nervous"
+    ],
+    "target_z": -0.901
+   },
+   {
+    "target": "guilty",
+    "rank": 43,
+    "top5": [
+     "kind",
+     "grateful",
+     "thankful",
+     "excited",
+     "compassionate"
+    ],
+    "target_z": 0.622
+   },
+   {
+    "target": "sad",
+    "rank": 49,
+    "top5": [
+     "grateful",
+     "kind",
+     "thankful",
+     "loving",
+     "safe"
+    ],
+    "target_z": 0.564
+   },
+   {
+    "target": "afraid",
+    "rank": 74,
+    "top5": [
+     "excited",
+     "enthusiastic",
+     "vigilant",
+     "thrilled",
+     "energized"
+    ],
+    "target_z": 0.221
+   },
+   {
+    "target": "nervous",
+    "rank": 26,
+    "top5": [
+     "optimistic",
+     "thankful",
+     "excited",
+     "grateful",
+     "kind"
+    ],
+    "target_z": 1.235
+   },
+   {
+    "target": "surprised",
+    "rank": 35,
+    "top5": [
+     "excited",
+     "kind",
+     "bewildered",
+     "amused",
+     "hurt"
+    ],
+    "target_z": 0.886
+   }
+  ]
+ },
+ "judged_ratings": {
+  "n_parsed": 171,
+  "n_total": 171
+ },
+ "pc1_vs_valence_r": 0.846,
+ "pc2_vs_arousal_r": 0.7,
+ "layer_rsa_correlation": {
+  "8-14": 0.966,
+  "8-21": 0.96,
+  "8-26": 0.955,
+  "8-31": 0.95,
+  "14-21": 0.985,
+  "14-26": 0.971,
+  "14-31": 0.967,
+  "21-26": 0.984,
+  "21-31": 0.978,
+  "26-31": 0.995
+ }
+}

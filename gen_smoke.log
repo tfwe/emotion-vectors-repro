@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights:   0%|          | 1/426 [00:00<06:02,  1.17it/s]Loading weights:  11%|█         | 46/426 [00:00<00:05, 65.22it/s]Loading weights:  23%|██▎       | 99/426 [00:01<00:02, 142.64it/s]Loading weights:  36%|███▌      | 152/426 [00:01<00:01, 212.48it/s]Loading weights:  47%|████▋     | 200/426 [00:01<00:00, 268.69it/s]Loading weights:  57%|█████▋    | 244/426 [00:01<00:00, 305.78it/s]Loading weights:  68%|██████▊   | 288/426 [00:01<00:00, 331.13it/s]Loading weights:  78%|███████▊  | 331/426 [00:01<00:00, 350.02it/s]Loading weights:  92%|█████████▏| 393/426 [00:01<00:00, 417.77it/s]Loading weights: 100%|██████████| 426/426 [00:01<00:00, 241.46it/s]
+[gen] model Qwen/Qwen3.5-4B layers=32 hidden=2560
+[gen] stories: 171 emotions x 2 topics = 342 prompts, 0 cached, 342 to run
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[gen] 8/342 written=8 0.9/s eta=6.2min
+[gen] 72/342 written=72 1.0/s eta=4.5min
