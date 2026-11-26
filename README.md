@@ -80,3 +80,13 @@ The `.npz` activation vectors are excluded from the repo because they can be reg
 ## Credit
 
 This work reproduces Anthropic's emotion-vector research. The blackmail scenario in `blackmail_transcripts.jsonl` comes from the source paper.
+
+## Plots
+
+Reproducible figures, generated from `analysis.json`:
+
+- `plots/pca_variance.png` — PCA variance explained by component.
+- `plots/cosine_pairs.png` — cosine similarity for named emotion pairs.
+- `plots/implicit_retrieval_ranks.png` — rank of each target emotion in the failed implicit retrieval test.
+
+Regenerate with `.venv/bin/python make_plots.py` (matplotlib only).
