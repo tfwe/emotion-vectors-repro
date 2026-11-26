@@ -1,51 +1,0 @@
-Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights:   0%|          | 1/426 [00:00<00:58,  7.26it/s]Loading weights:  11%|█         | 47/426 [00:00<00:01, 236.71it/s]Loading weights:  22%|██▏       | 93/426 [00:00<00:01, 329.28it/s]Loading weights:  31%|███▏      | 134/426 [00:00<00:00, 354.06it/s]Loading weights:  46%|████▌     | 195/426 [00:00<00:00, 439.30it/s]Loading weights:  58%|█████▊    | 249/426 [00:00<00:00, 471.84it/s]Loading weights:  72%|███████▏  | 306/426 [00:00<00:00, 499.13it/s]Loading weights:  84%|████████▍ | 358/426 [00:00<00:00, 504.42it/s]Loading weights:  96%|█████████▌| 409/426 [00:00<00:00, 500.49it/s]Loading weights: 100%|██████████| 426/426 [00:00<00:00, 428.96it/s]
-[gen] model Qwen/Qwen3.5-4B layers=32 hidden=2560
-[gen] stories: 171 emotions x 16 topics = 2736 prompts, 120 cached, 2616 to run
-[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
-[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
-[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
-[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
-[gen] 8/2616 written=8 0.9/s eta=47.6min
-[gen] 72/2616 written=72 1.0/s eta=42.5min
-[gen] 136/2616 written=136 1.0/s eta=41.0min
-[gen] 200/2616 written=200 1.0/s eta=40.2min
-[gen] 264/2616 written=264 1.0/s eta=39.2min
-[gen] 328/2616 written=328 1.0/s eta=38.0min
-[gen] 392/2616 written=392 1.0/s eta=36.8min
-[gen] 456/2616 written=456 1.0/s eta=35.7min
-[gen] 520/2616 written=520 1.0/s eta=35.5min
-[gen] 584/2616 written=584 1.0/s eta=35.0min
-[gen] 648/2616 written=648 1.0/s eta=33.7min
-[gen] 712/2616 written=712 1.0/s eta=32.5min
-[gen] 776/2616 written=776 1.0/s eta=31.3min
-[gen] 840/2616 written=840 1.0/s eta=30.2min
-[gen] 904/2616 written=904 1.0/s eta=29.0min
-[gen] 968/2616 written=968 1.0/s eta=27.7min
-[gen] 1032/2616 written=1032 1.0/s eta=26.4min
-[gen] 1096/2616 written=1096 1.0/s eta=25.2min
-[gen] 1160/2616 written=1160 1.0/s eta=24.1min
-[gen] 1224/2616 written=1224 1.0/s eta=23.0min
-[gen] 1288/2616 written=1288 1.0/s eta=21.9min
-[gen] 1352/2616 written=1352 1.0/s eta=20.8min
-[gen] 1416/2616 written=1416 1.0/s eta=19.7min
-[gen] 1480/2616 written=1480 1.0/s eta=18.7min
-[gen] 1544/2616 written=1544 1.0/s eta=17.6min
-[gen] 1608/2616 written=1608 1.0/s eta=16.6min
-[gen] 1672/2616 written=1672 1.0/s eta=15.4min
-[gen] 1736/2616 written=1736 1.0/s eta=14.3min
-[gen] 1800/2616 written=1800 1.0/s eta=13.3min
-[gen] 1864/2616 written=1864 1.0/s eta=12.2min
-[gen] 1928/2616 written=1928 1.0/s eta=11.2min
-[gen] 1992/2616 written=1992 1.0/s eta=10.2min
-[gen] 2056/2616 written=2056 1.0/s eta=9.1min
-[gen] 2120/2616 written=2120 1.0/s eta=8.1min
-[gen] 2184/2616 written=2184 1.0/s eta=7.0min
-[gen] 2248/2616 written=2248 1.0/s eta=6.0min
-[gen] 2312/2616 written=2312 1.0/s eta=5.0min
-[gen] 2376/2616 written=2376 1.0/s eta=3.9min
-[gen] 2440/2616 written=2440 1.0/s eta=2.9min
-[gen] 2504/2616 written=2504 1.0/s eta=1.8min
-[gen] 2568/2616 written=2568 1.0/s eta=0.8min
-[gen] stories done: 2616 new rows
-[gen] neutral: 100 to run
-[gen] neutral done
